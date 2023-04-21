@@ -1,0 +1,104 @@
+body {
+  background-color: #F5DEB3;
+}
+
+h1 {
+  color: #c4a072;
+  font-size: 80pt;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 span:hover {
+  color: #556B2F;
+}
+
+.button {
+  background: transparent;
+  border-color: transparent;
+  color: #c4a072;
+  font-size: 16pt;
+  padding: 8px;
+  margin: 4pt;
+  height: 40pt;
+  width: 100pt;
+  text-align: center;
+}
+
+
+.button:hover,
+.button span:hover {
+  color: #FFF8DC;
+  border-color: #FFF8DC;
+  font-weight: bold;
+}
+
+.abt-me {
+  position: fixed;
+  top: 8px;
+}
+
+.resume {
+  position: fixed;
+  top: 68px;
+}
+
+.dropdown {
+  position: fixed;
+  top: 132px;
+  display: inline-block;
+}
+
+.projects-content {
+  background: transparent;
+  border-color: transparent;
+  z-index: 1;
+}
+
+.uDog, .cpp {
+  background-color: transparent;
+  border-color: transparent;
+  color: #c4a072;
+  font-size: 16pt;
+  padding: 8px;
+  margin: 4pt;
+  height: 40pt;
+  width: 100pt;
+  text-align: center;
+}
+
+.projects-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+}
+
+.dropdown:hover .projects-content { display: block; }
+.uDog:hover, .udog span:hover, .cpp:hover, .cpp span:hover {
+  color: #FFF8DC;
+  border-color: #FFF8DC;
+  font-weight: bold;
+}
+
+
+
+input[type = button] {
+  color: #c4a072;
+  font-size: 12pt;
+  background: transparent;
+  border-color: transparent;
+  position: fixed;
+  top: 8px;
+  right: 14px;
+}
+input[type = button]:hover {
+  font-weight: bold;
+}
+
+body.night-mode {
+  background-color: #6F4E37; 
+}
+body.day-mode {
+  background-color: #F5DEB3;
+}
